@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
 }
@@ -18,7 +22,6 @@ ul {
 body {
     font-family: 'Noto Sans KR', sans-serif;
     color: #333;
-
 }
 
 .title {
@@ -64,7 +67,6 @@ body {
     margin-right: 50px;
     width: 300px;
     height: 210px;
-    background-color: #ddd;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -77,7 +79,6 @@ body {
 
 .item .photo_01 {
     background-image: url("../images/london.jpg");
-    
 }
 
 .item .photo_02 {
