@@ -39,7 +39,6 @@ body {
 
 .nav ul li {
     display: inline-block;
-    height: 100px;
 }
 
 .nav ul li a {
@@ -47,5 +46,26 @@ body {
     display: inline-block;
     line-height: 80px;
     padding: 0 20px;
-    /* background-color: red; */
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+}
+
+.item .photo {}
+
+.item .text {}
+
+.bottom {
+    padding: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
 }
